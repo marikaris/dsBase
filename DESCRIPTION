@@ -18,7 +18,8 @@ Imports:
     gamlss,
     gamlss.dist,
     mice,
-    childsds
+    childsds, 
+    pryr
 AggregateMethods:
     asFactorDS1,
     asListDS,
@@ -83,6 +84,7 @@ AggregateMethods:
     tapplyDS,
     testObjExistsDS,
     varDS,
+    memUsedDS
     exists=base::exists,
     is.character=base::is.character,
     is.factor=base::is.factor,
