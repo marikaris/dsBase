@@ -8,4 +8,4 @@ memUsedDS <- function(){
   return(pryr::mem_used())
 }
 #AGGREGATE FUNCTION
-# classDS
+# memUsedDS
